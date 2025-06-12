@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+select, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.movie h3 {
+    margin: 0 0 10px;
+}
+
+.movie p {
+    margin: 5px 0;
+}
